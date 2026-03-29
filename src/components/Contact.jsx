@@ -26,12 +26,12 @@ const Contact = () => {
             >
               <FaEnvelope /> Say Hello
             </a>
-            <a
-              href="/resume"
+            <Link
+              to="/resume"
               className="flex items-center justify-center gap-2 px-8 py-4 border border-gray-700 text-white font-bold rounded hover:border-accent hover:text-accent transition-all"
             >
               <FaFileDownload /> Download Resume
-            </a>
+            </Link>
           </div>
 
           <div className="mt-12 flex justify-center gap-8">
