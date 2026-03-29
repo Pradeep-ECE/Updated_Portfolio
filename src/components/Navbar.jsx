@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';

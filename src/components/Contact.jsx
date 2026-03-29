@@ -1,6 +1,8 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import { FaEnvelope, FaLinkedin, FaGithub, FaFileDownload } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
