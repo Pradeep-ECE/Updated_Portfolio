@@ -3,6 +3,7 @@ import {
     FaHtml5, FaCss3Alt, FaJs, FaReact, FaMobileAlt, FaLayerGroup,
     FaNodeJs, FaServer, FaDatabase, FaLock, FaGitAlt, FaDocker, FaAws, FaLinux, FaGithub, FaKey
 } from 'react-icons/fa';
+import { SiRedux } from "react-icons/si";
 import {
     SiPostman, SiJenkins, SiPostgresql, SiMongodb, SiRedis, SiGraphql, SiExpress
 } from 'react-icons/si';
@@ -52,6 +53,7 @@ export const skillCategories = [
             { name: "VS Code", icon: <VscVscode /> },
             { name: "Postman", icon: <SiPostman /> },
             { name: "Linux", icon: <FaLinux /> },
+            { name: "Redux", icon: <SiRedux /> },
         ]
     }
 ];
