@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-    FaHtml5, FaCss3Alt, FaJs, FaReact, FaMobileAlt, FaLayerGroup,
-    FaNodeJs, FaServer, FaDatabase, FaLock, FaGitAlt, FaDocker, FaAws, FaLinux, FaGithub, FaKey
+    FaNodeJs, FaServer, FaDatabase, FaLock,
+    FaGitAlt, FaDocker, FaAws, FaLinux, FaGithub, FaKey, FaReact, FaJs
 } from 'react-icons/fa';
 import { SiRedux } from "react-icons/si";
 import {
@@ -11,49 +11,52 @@ import { VscVscode } from "react-icons/vsc";
 
 export const skillCategories = [
     {
-        title: "Front-End",
-        subtitle: "User Interface & Experience",
-        delay: 0.2,
-        skills: [
-            { name: "HTML5", icon: <FaHtml5 /> },
-            { name: "CSS3", icon: <FaCss3Alt /> },
-            { name: "JavaScript (ES6+)", icon: <FaJs /> },
-            { name: "React.js", icon: <FaReact /> },
-            { name: "Responsive Design", icon: <FaMobileAlt /> },
-            { name: "Component Architecture", icon: <FaLayerGroup /> },
-        ]
-    },
-    {
-        title: "Back-End",
-        subtitle: "Server & Database",
-        delay: 0.4,
+        title: "Back-End Core",
+        subtitle: "APIs, Server & Runtime",
+        delay: 0.1,
         skills: [
             { name: "Node.js", icon: <FaNodeJs /> },
             { name: "Express.js", icon: <SiExpress /> },
-            { name: "REST APIs", icon: <FaServer /> },
             { name: "GraphQL", icon: <SiGraphql /> },
-            { name: "PostgreSQL", icon: <SiPostgresql /> },
-            { name: "MongoDB", icon: <SiMongodb /> },
-            { name: "Redis (Caching)", icon: <SiRedis /> },
+            { name: "REST APIs", icon: <FaServer /> },
             { name: "Server-Sent Events", icon: <FaServer /> },
-            { name: "Auth & Security", icon: <FaLock /> },
-            { name: "SSO", icon: <FaKey /> },
-            { name: "Schema Modeling", icon: <FaDatabase /> },
+            { name: "Auth / SSO", icon: <FaLock /> },
+            { name: "JWT / OAuth 2.0", icon: <FaKey /> },
         ]
     },
     {
-        title: "Tools & Others",
-        subtitle: "Development & DevOps",
-        delay: 0.6,
+        title: "Databases & Caching",
+        subtitle: "Storage, Querying & Optimization",
+        delay: 0.2,
         skills: [
-            { name: "Git & GitHub", icon: <FaGithub /> },
+            { name: "PostgreSQL", icon: <SiPostgresql /> },
+            { name: "MongoDB", icon: <SiMongodb /> },
+            { name: "Redis", icon: <SiRedis /> },
+            { name: "Schema Modeling", icon: <FaDatabase /> },
+            { name: "Query Optimization", icon: <FaDatabase /> },
+        ]
+    },
+    {
+        title: "DevOps & Tooling",
+        subtitle: "Infra, CI/CD & Cloud",
+        delay: 0.3,
+        skills: [
             { name: "Docker", icon: <FaDocker /> },
-            { name: "AWS (EC2, S3, IAM)", icon: <FaAws /> },
             { name: "Jenkins (CI/CD)", icon: <SiJenkins /> },
-            { name: "VS Code", icon: <VscVscode /> },
-            { name: "Postman", icon: <SiPostman /> },
+            { name: "AWS (EC2, S3, RDS)", icon: <FaAws /> },
             { name: "Linux", icon: <FaLinux /> },
+            { name: "Git & GitHub", icon: <FaGithub /> },
+            { name: "Postman", icon: <SiPostman /> },
+        ]
+    },
+    {
+        title: "Full-Stack Touch",
+        subtitle: "Frontend Proficiency",
+        delay: 0.4,
+        skills: [
+            { name: "React.js", icon: <FaReact /> },
+            { name: "JavaScript (ES6+)", icon: <FaJs /> },
             { name: "Redux", icon: <SiRedux /> },
         ]
-    }
+    },
 ];
