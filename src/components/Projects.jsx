@@ -30,7 +30,7 @@ const projects = [
       "Designed a centralized authentication gateway using postMessage + JWT for seamless SSO across a suite of internal enterprise applications. Reduced login friction and centralized token management.",
     highlights: ["JWT", "Redis Caching", "JWT / postMessage", "Security Auditing"],
     metrics: ["2 apps unified", "Sub-100ms token resolution"],
-    github: "https://github.com/Pradeep-ECE",  // Link to profile if no public repo
+    github: null,  // Link to profile if no public repo
     live: null,
   },
 ];
