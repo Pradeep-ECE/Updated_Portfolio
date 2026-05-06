@@ -81,7 +81,7 @@ const Experience = () => {
         "Owned backend architecture for a no-code page builder platform serving 50k+ concurrent sessions — designed versioned state-sync that eliminated 95% of data conflicts.",
         "Led REST → GraphQL migration for a multi-language e-commerce engine, cutting API bandwidth by 50% and reducing over-fetching across 30+ resolvers.",
         "Engineered a real-time notification layer using Server-Sent Events (SSE), increasing active user session duration by 20%.",
-        "Architected a centralized SSO gateway using postMessage + OAuth 2.0 across 5 internal enterprise applications.",
+        "Architected a centralized SSO gateway using postMessage + JWT across 2 internal enterprise applications.",
         "Optimized PostgreSQL query performance by 40% via indexing strategy, query analysis (EXPLAIN ANALYZE), and schema normalization.",
         "Containerized all backend services with Docker and automated CI/CD pipelines with Jenkins — reduced deployment time from 2h to 20 min.",
       ],
