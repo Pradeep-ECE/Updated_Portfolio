@@ -37,20 +37,11 @@ const Contact = () => {
               <span className="heading-gradient">Together.</span>
             </h2>
             <p className="text-slate-400 mb-10 text-base md:text-lg font-light leading-relaxed max-w-xl mx-auto">
-              Available for senior backend and full-stack roles. Response guaranteed within 24 hours.
+              Available for senior backend and full-stack roles.
             </p>
 
             {/* Primary CTAs */}
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
-              <motion.a
-                href="mailto:pradeepery141@gmail.com"
-                whileHover={{ scale: 1.04 }}
-                whileTap={{ scale: 0.96 }}
-                className="flex items-center justify-center gap-3 px-8 py-4 bg-white text-primary font-bold rounded-xl hover:bg-gray-100 hover:shadow-[0_0_30px_rgba(255,255,255,0.15)] transition-all"
-              >
-                <FaEnvelope />
-                Send an Email
-              </motion.a>
               <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.96 }}>
                 <Link
                   to="/resume"

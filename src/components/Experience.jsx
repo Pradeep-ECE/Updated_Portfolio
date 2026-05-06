@@ -83,7 +83,6 @@ const Experience = () => {
         "Engineered a real-time notification layer using Server-Sent Events (SSE), increasing active user session duration by 20%.",
         "Architected a centralized SSO gateway using postMessage + JWT across 2 internal enterprise applications.",
         "Optimized PostgreSQL query performance by 40% via indexing strategy, query analysis (EXPLAIN ANALYZE), and schema normalization.",
-        "Containerized all backend services with Docker and automated CI/CD pipelines with Jenkins — reduced deployment time from 2h to 20 min.",
       ],
       techStack: ["Node.js", "Express.js", "PostgreSQL", "GraphQL", "SSE", "Redis", "Docker", "Jenkins", "AWS"],
     },

@@ -27,9 +27,9 @@ const projects = [
     number: "03",
     title: "SSO Gateway Service",
     description:
-      "Designed a centralized authentication gateway using postMessage + OAuth 2.0 for seamless SSO across a suite of internal enterprise applications. Reduced login friction and centralized token management.",
-    highlights: ["OAuth 2.0", "Redis Caching", "JWT / postMessage", "Security Auditing"],
-    metrics: ["5 apps unified", "Sub-100ms token resolution"],
+      "Designed a centralized authentication gateway using postMessage + JWT for seamless SSO across a suite of internal enterprise applications. Reduced login friction and centralized token management.",
+    highlights: ["JWT", "Redis Caching", "JWT / postMessage", "Security Auditing"],
+    metrics: ["2 apps unified", "Sub-100ms token resolution"],
     github: "https://github.com/Pradeep-ECE",  // Link to profile if no public repo
     live: null,
   },
